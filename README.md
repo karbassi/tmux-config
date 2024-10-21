@@ -13,6 +13,7 @@ ln -s ~/.config/tmux/ ~/.tmux
 ```
 
 ## Features
+
 - Automatically renumber windows in numerical order
 - Faster Command Sequences (in milliseconds)
 - Highlight status bar on activity
@@ -26,10 +27,14 @@ ln -s ~/.config/tmux/ ~/.tmux
 - Use Alt-arrow keys without prefix key to switch panes.
 - Present a menu of URLs to open from the visible pane. sweet.
 - New window with default path set to last path
-- Rather than constraining window size to the maximum size of any client 
-  connected to the *session*, constrain window size to the maximum size 
-  of any client connected to *that window*. Much more reasonable.
+- Rather than constraining window size to the maximum size of any client
+  connected to the _session_, constrain window size to the maximum size
+  of any client connected to _that window_. Much more reasonable.
 - Solarized Theme
 - OS X Config
 - Plugins
-    - [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect)
+  - [tmux-colors-solarized](https://github.com/seebi/tmux-colors-solarized)
+  - [tmux-continuum](https://github.com/tmux-plugins/tmux-continuum)
+  - [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect)
+  - [tmux-sensible](https://github.com/tmux-plugins/tmux-sensible)
+  - [tmux-yank](https://github.com/tmux-plugins/tmux-yank)
